@@ -28,9 +28,9 @@ echo "========================================="
 
 APP_HOME="/home/appuser/apps/ecom-lite"
 
-BACKEND_REPO="https://github.com/<YOUR_USERNAME>/<BACKEND_REPO>.git"
-FRONTEND_REPO="https://github.com/<YOUR_USERNAME>/<FRONTEND_REPO>.git"
-SCRIPTS_REPO="https://github.com/<YOUR_USERNAME>/<SCRIPTS_REPO>.git"
+BACKEND_REPO= "https://github.com/BOT-Parth/ecom-lite-backend.git"
+FRONTEND_REPO= "https://github.com/BOT-Parth/ecom-lite-frontend-.git"
+SCRIPTS_REPO= "https://github.com/BOT-Parth/ecom-scripts.git"
 
 #############################################
 # System Update
