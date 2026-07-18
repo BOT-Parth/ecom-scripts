@@ -37,7 +37,7 @@ echo "Installing npm packages..."
 npm install
 
 echo "Building frontend..."
-
+export VITE_API_URL=/api
 npm run build
 
 #############################################
