@@ -75,15 +75,10 @@ DATABASE_URL="postgresql://${DB_USERNAME}:${DB_PASSWORD}@${DB_HOST}:${DB_PORT}/$
 
 cat > .env <<EOF
 PORT=$PORT
-
 DATABASE_URL=$DATABASE_URL
-
 JWT_SECRET=$JWT_SECRET
-
 JWT_EXPIRES_IN=$JWT_EXPIRES_IN
-
 NODE_ENV=$NODE_ENV
-
 FRONTEND_URL=$FRONTEND_URL
 EOF
 
@@ -128,7 +123,7 @@ echo "Waiting for backend..."
 
 sleep 5
 
-curl -f http://localhost:5000/auth/profile >/dev/null || {
+curl -f http://localhost:5000/health >/dev/null || {
     echo "Backend failed health check."
     exit 1
 }
